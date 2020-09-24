@@ -32,4 +32,12 @@ describe "testing behaviour for numbers divisible by 3" do
             expect(fizz_buzz(6)).to eq("fizz")
         end
     end
+
+    context "When I fizzbuzz number 9" do
+        it "returns a 'fizz'" do    
+            expect(fizz_buzz(9)).to eq("fizz")
+        end
+    end
+
+
 end
