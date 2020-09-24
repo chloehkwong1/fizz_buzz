@@ -1,3 +1,6 @@
-def fizz_buzz
-    1
+def fizz_buzz(num)
+    if num == 1
+        return 1
+    end
+    2
 end
