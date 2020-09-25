@@ -60,5 +60,25 @@ describe "testing behaviour for numbers divisible by 3" do
 
     end
 
+    describe "testing behaviour for numbers divisible by 3 and 5" do
+        context "When I fizzbuzz number 15" do
+            it "returns a 'fizzbuzz'" do
+                expect(fizz_buzz(15)).to eq("fizzbuzz")
+            end
+        end
+
+        context "When I fizzbuzz number 30" do
+            it "returns a 'fizzbuzz'" do
+                expect(fizz_buzz(30)).to eq("fizzbuzz")
+            end
+        end
+
+        context "When I fizzbuzz number 45" do
+            it "returns a 'fizzbuzz'" do
+                expect(fizz_buzz(45)).to eq("fizzbuzz")
+            end
+        end
+    end
+
 
 end
